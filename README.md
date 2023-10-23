@@ -1,12 +1,10 @@
-# Specify and Extract Document Segments
-This project is used to obtain Word, Excel, PowerPoint, Ofd location content, using regular expression and XML to verify the correctness of the location.
+# SEDS (Specify and Extract Document Segments）
+This project is used to retrieve partial content from documents in Word, Excel, PowerPoint, OFD formats, using regular expression or XML path.
 
 ## Environment
 Integrated development environment: Visual Studio 2022
 
-Language: C#
-
-Open Software Toolkit: .NET Framework 4.7.2
+Language: C# (with .NET Framework 4.7.2)
 
 ## Main interface
 <p align="center">
@@ -14,15 +12,18 @@ Open Software Toolkit: .NET Framework 4.7.2
 </p>
 
 ## Tool Functions
-1. Extracts the text content of a Word file at the position of the specified paragraph character.
-   
-2. Extract the text content of the specified table position in the Word file.
+This tool can retrieve the following content according to various expression:
 
-3. Extract the text content of the specified cell in the Excel file.
+text in a paragraph from particular position in a Word document
 
-4. Extract the text content of the specified slide in the PowerPoint file.
+text in a table from particular position in a Word document
 
-5. Extracts the text content of the specified object in the Ofd file.
+text in a cell from particular sheet in an Excel document
+
+text in a slide in a PowerPoint document
+
+text in an object in a OFD document.
+
 
 ## Main libraries used
 ICSharpCode.SharpZipLib 1.4.2.13
