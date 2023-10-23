@@ -1,9 +1,9 @@
 # Example
-## Provision examples of XML and regular expression representations
+## Examples of regular expression and XML
 
-- Regular expression location specific example.docx
-- XML Location Specific example.docx
-## Provision of test documents
+- Regular_expression_example.docx
+- XML_example.docx
+## Document examples
 
   - test.docx
   - test.table.docx
